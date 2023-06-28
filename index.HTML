@@ -10,6 +10,35 @@
 </head>
 
 <body>
+    <header>
+        <h1>JavaScript Quiz</h1>
+      </header>
+      
+      <main>
+        <section id="start-page">
+          <h2>Test your JavaScript knowledge!</h2>
+          <button id="start-btn">Start Quiz</button>
+        </section>
+    
+        <section id="quiz-page" class="hide">
+            <div id="timer">Time Left: <span id="time-left"></span></div>
+            <h2 id="question-text"></h2>
+          <div id="answers-container"></div>
+        </section>
+
+        <section id="end-page" class="hide">
+            <h2>Quiz Complete!</h2>
+            <p>Your final score is: <span id="final-score"></span></p>
+            <form id="submit-form">
+              <label for="initials">Enter your initials:</label>
+              <input type="text" id="initials" required maxlength="3">
+              <button type="submit">Submit</button>
+            </form>
+            <h3>Leaderboard:</h3>
+            <ul id="leaderboard"></ul>
+            <button id="clear-scores">Clear Scores</button>
+          </section>
+      </main>
     
     <script src="./assets/js/script.js"></script>
 </body>
