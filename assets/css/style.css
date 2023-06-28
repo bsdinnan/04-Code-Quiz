@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #timer {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  #answers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #answers-container button {
+    margin-top: 10px;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  
+  
+  
